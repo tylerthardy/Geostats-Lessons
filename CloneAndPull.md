@@ -62,7 +62,7 @@ That's it! Now you have the latest version of the class data. You will need to d
 
 Additional Resources and Information
 ------------------------------------
-* Great Introduction to GitHub for those who want to learn it more in-depth: https://try.github.io/levels/1/challenges/1
+* 15-Minute Interactive Intro to GitHub: https://try.github.io/levels/1/challenges/1
 
 * Git has integration with RStudio and is incredibly useful in maintaining various versions of R code without having to constantly save and keep track of files. It even has a GUI interface so you don't have to use the Command Prompt or Terminal. This can be done by following this tutorial: https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN
 
