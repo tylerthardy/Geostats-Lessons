@@ -29,7 +29,11 @@ You can find downloads for both Windows and Mac at https://git-scm.com/
 
   *     git --version
   * **If** you are getting errors about admin privileges, type the following command and accept the license:
+  
   *     sudo xcodebuild -license
+
+
+
 Setup Class Folder and GitHub
 -------------
 First you need a place to store the files that you will be 'pulling', or downloading, from GitHub. This is called your 'local repository', which is a copy of the 'master repository' on GitHub. Create it somewhere easy to get to, and remember the filepath to it, for example:
