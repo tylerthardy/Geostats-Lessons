@@ -61,10 +61,7 @@ It **will not** automatically update. You will need to do Git 'pulls' to get the
 
 'Pull' - Updating the Class Data to Current Version
 -------------
-Open Command Prompt or Terminal like you previously did, and navigate to the folder again. This time, once you're in the folder, you have to go into the repository subfolder, do this by typing:  
-
-    cd geostats2016
-    
+Open Command Prompt or Terminal like you previously did, and navigate to the folder again. 
 Once you're in the repository folder, type the following to update to the latest version:
 
     git pull
