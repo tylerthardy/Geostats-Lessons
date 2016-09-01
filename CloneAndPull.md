@@ -13,10 +13,21 @@ Installing GitHub
 -----------------------
 You can find downloads for both Windows and Mac at https://git-scm.com/
 
-* **Windows:** Click "Download for Windows" on the right of the page.  
-* **Mac:** Click "Mac Builds" below the Windows button.  
-
-
+* **Windows:**
+    * Click "Download for Windows" on the right side of the page.  
+    * Install and follow the installer instructions
+    * Git should now be installed
+* **Mac:** 
+    * First download and install Xcode (it is quite large ~ 3.8 GB) from http://itunes.apple.com/us/app/xcode/id497799835
+    * Once you have Xcode installed, open the terminal app (click applications > utilities > terminal).
+    * Type the following command:
+    *     xcode-select --install
+    * Click the install button to install the developer tools.
+    * You may want to add the terminal app to your dock at this point. You can do this by right-clicking terminal and clicking options > add to dock.
+    * At this point git should be installed. You can test it by typing: 
+    *     git --version
+    * **If** you are getting errors about admin privileges, type the following command and accept the license:
+    *     sudo xcodebuild -license
 Setup Class Folder and GitHub
 -------------
 First you need a place to store the files that you will be 'pulling', or downloading, from GitHub. This is called your 'local repository', which is a copy of the 'master repository' on GitHub. Create it somewhere easy to get to, and remember the filepath to it, for example:
@@ -36,7 +47,7 @@ Once you've created the folder, it's time to download the data from GitHub into 
 
 **Mac (Terminal)**:
 * Open Finder and go to Applications, then to Utilities, and open Terminal
-* Once you have Terminal open, type 'cd' and then drag the Geostats folder you created into Terminal, and press Enter. This will put you in that folder.
+* Once you have Terminal open, type "cd " (include the space after cd) and then drag the Geostats folder you created into Terminal, and press Enter. This will put you in that folder.
 *     cd [Drag and Drop Folder]
 
 **Cloning:**
@@ -69,5 +80,5 @@ Additional Resources and Information
 * GitHub manual: https://git-scm.com/book/en/v2
 
  
-	   
-Adapted by Tyler Hardy from tutorials found on https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
+*Adapted by Tyler Hardy from tutorials found on https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository  
+Mac installation instructions by Jason Tilley*
