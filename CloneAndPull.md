@@ -14,20 +14,22 @@ Installing GitHub
 You can find downloads for both Windows and Mac at https://git-scm.com/
 
 * **Windows:**
-    * Click "Download for Windows" on the right side of the page.  
-    * Install and follow the installer instructions
-    * Git should now be installed
+  * Click "Download for Windows" on the right side of the page.  
+  * Install and follow the installer instructions
+  * Git should now be installed
 * **Mac:** 
-    * First download and install Xcode (it is quite large ~ 3.8 GB) from http://itunes.apple.com/us/app/xcode/id497799835
-    * Once you have Xcode installed, open the terminal app (click applications > utilities > terminal).
-    * Type the following command:
-    *     xcode-select --install
-    * Click the install button to install the developer tools.
-    * You may want to add the terminal app to your dock at this point. You can do this by right-clicking terminal and clicking options > add to dock.
-    * At this point git should be installed. You can test it by typing: 
-    *     git --version
-    * **If** you are getting errors about admin privileges, type the following command and accept the license:
-    *     sudo xcodebuild -license
+  * First download and install Xcode (it is quite large ~ 3.8 GB) from http://itunes.apple.com/us/app/xcode/id497799835
+  * Once you have Xcode installed, open the terminal app (click applications > utilities > terminal).
+  * Type the following command:
+
+  *     xcode-select --install
+  * Click the install button to install the developer tools.
+  * You may want to add the terminal app to your dock at this point. You can do this by right-clicking terminal and clicking options > add to dock.
+  * At this point git should be installed. You can test it by typing: 
+
+  *     git --version
+  * **If** you are getting errors about admin privileges, type the following command and accept the license:
+  *     sudo xcodebuild -license
 Setup Class Folder and GitHub
 -------------
 First you need a place to store the files that you will be 'pulling', or downloading, from GitHub. This is called your 'local repository', which is a copy of the 'master repository' on GitHub. Create it somewhere easy to get to, and remember the filepath to it, for example:
@@ -40,14 +42,17 @@ Once you've created the folder, it's time to download the data from GitHub into 
 
 **Windows (Command Prompt)**:  
 * Click the Start button and type into the box (Quick Search on Win7, or Ask Me Anything on Win10):
+
 *     cmd
-* Once you have the Command Prompt open, type 'cd' followed by the full filepath of the folder you created for Geostats. This will put you in that folder.
+* Once you have the Command Prompt open, type "cd " followed by the full filepath of the folder you created for Geostats. Make sure to include the space between cd and the filepath. This will put you in that folder.
+
 *     cd C:\Geostats2016\
 * Alternatively, you can type 'cd' and then drag the folder from Windows to the Command Prompt to copy the filepath into Command Prompt.  
 
 **Mac (Terminal)**:
 * Open Finder and go to Applications, then to Utilities, and open Terminal
-* Once you have Terminal open, type "cd " (include the space after cd) and then drag the Geostats folder you created into Terminal, and press Enter. This will put you in that folder.
+* Once you have Terminal open, type "cd " and then drag the Geostats folder you created into Terminal, and press Enter. Make sure to include the space between cd and the folder. This will put you in that folder.
+
 *     cd [Drag and Drop Folder]
 
 **Cloning:**
