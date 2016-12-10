@@ -28,10 +28,11 @@ Here's a simple workflow to getting things in order:
    coordinates(data) <- ~lat+long
    ```
 3. **Project lat-long to projected coordinate system for NGOM:**  
-   ```R
-   library(sp)
-   spTransform(data, "+proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no\_defs")
-   ```  
+
+    ```R
+    library(sp)
+    spTransform(data, "+proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no\_defs") 
+    ```  
 4. Your data should now be in UTM meters!  
    Example:     
    ![](proj_after.png)
