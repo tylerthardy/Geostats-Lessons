@@ -13,7 +13,7 @@ Here's a simple workflow to getting things in order:
 
 1. **Is your dataset in lat/long degrees?**  
    Example:  
-   ![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)  
+   ![](proj_before.png)  
    *Yes*, keep reading.  
    *No*, skip to step 4.  
    
@@ -34,7 +34,7 @@ Here's a simple workflow to getting things in order:
    ```
 4. Your data should now be in UTM meters!  
    Example:     
-   ![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+   ![](proj_after.png)
 
 ***
 *Created by Tyler Hardy 2016*
