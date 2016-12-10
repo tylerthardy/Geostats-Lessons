@@ -1,3 +1,5 @@
+Projection Without Hair-loss
+==========================
 There are 2 ways that your data can be be referenced:
 
 - Geographically (geographic coordinates; LAT/LONG)
@@ -14,7 +16,6 @@ Here's a simple workflow to getting things in order:
    ![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)  
    *Yes*, keep reading.  
    *No*, skip to step 4.  
-   *Not sure?* Check Appendix A for more info.  
    
 2. **Is your dataset from a ShapeFile?**  
    *Yes*:  
@@ -24,15 +25,16 @@ Here's a simple workflow to getting things in order:
     ```  
    *No*:
    ```
-   coordinates(data) &lt;- ~lat+long
+   coordinates(data) <- ~lat+long
    ```
 3. **Project lat-long to projected coordinate system for NGOM:**  
    ```
    library(sp)
-   spTransform(data, &quot;+proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no\_defs&quot;)
+   spTransform(data, "+proj=utm +zone=16 +ellps=WGS84 +datum=WGS84 +units=m +no\_defs")
    ```
 4. Your data should now be in UTM meters!  
    Example:     
    ![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
-   
----
+
+***
+*Created by Tyler Hardy 2016*
