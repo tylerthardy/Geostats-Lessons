@@ -38,7 +38,7 @@ Setup Class Folder and GitHub
 -------------
 First you need a place to store the files that you will be 'pulling', or downloading, from GitHub. This is called your 'local repository', which is a copy of the 'master repository' on GitHub. Create it somewhere easy to get to, and remember the filepath to it, for example:
 
-    C:\Geostats2016\
+    C:\GIS2017\
 
 'Clone' - Downloading Class Data for the 1st Time
 -------------
@@ -50,7 +50,7 @@ Once you've created the folder, it's time to download the data from GitHub into 
 *     cmd
 * Once you have the Command Prompt open, type "cd " followed by the full filepath of the folder you created for Geostats. Make sure to include the space between cd and the filepath. This will put you in that folder.
 
-*     cd C:\Geostats2016\
+*     cd C:\GIS2017\
 * Alternatively, you can type 'cd' and then drag the folder from Windows to the Command Prompt to copy the filepath into Command Prompt.  
 
 **Mac (Terminal)**:
@@ -61,7 +61,7 @@ Once you've created the folder, it's time to download the data from GitHub into 
 
 **Cloning:**
 * Now it's time to use Git to 'clone', or download the files for the first time, from Github:
-*     git clone https://github.com/wu16/geostats2016 .
+*     git clone https://github.com/wu16/GIS2017 .
     DO NOT forget the space and period after the URL. That means it creates the files in the folder that you're currently. in.  
 
 * Now you have a local copy of the folder from GitHub on your computer!  
